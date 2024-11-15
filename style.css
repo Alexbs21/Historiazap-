@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #075e54;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#chat-box {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #e5ddd5;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 70%;
+}
+
+.joao {
+    background-color: #dcf8c6;
+    align-self: flex-start;
+}
+
+.sr-pedro {
+    background-color: #fff;
+    align-self: flex-start;
+}
+
+.leonardo {
+    background-color: #d1f7ff;
+    align-self: flex-start;
+}
+
+.name {
+    font-weight: bold;
+    display: block;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ccc;
+}
+
+#message-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#send-button {
+    background-color: #075e54;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #0b7d65;
+}
